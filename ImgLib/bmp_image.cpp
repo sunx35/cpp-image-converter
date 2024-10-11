@@ -28,8 +28,8 @@ PACKED_STRUCT_BEGIN BitmapInfoHeader {
     uint16_t bits_per_pixel = 24;
     uint32_t compression = 0;
     uint32_t image_size;
-    int32_t horizontal_res = 11811; // pixels per meter
-    int32_t vertical_res = 11811;
+    int32_t x_pixels_per_meter = 11811;
+    int32_t y_pixels_per_meter = 11811;
     int32_t used_colors = 0;
     int32_t important_colors = 0x1000000;
 }
